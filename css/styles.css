@@ -1,0 +1,343 @@
+html {
+    box-sizing:border-box;
+      
+}
+
+*, *:before, *:after {
+    box-sizing:inherit;
+
+}
+p{
+    padding: 0px;
+    margin: 0px;
+}
+img {
+    max-width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.book{
+ 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    height: 600px;
+    background: url(../images/fivefeetapartCover.jpg);
+    background-size: 100%;
+    overflow: hidden;
+ } 
+.text{
+    color: rgb(76, 136, 208); 
+    font-family: "Galada", cursive;
+    font-weight: 400;
+    margin: 10px 0px 0px 0px;
+    padding: 0px;
+    font-style: normal;
+    text-align: center;
+    font-size: 1em;
+  
+}
+.text2{
+
+    font-weight: 400;
+    margin-top: 400px;
+    color: rgb(76, 136, 208); 
+    font-family: "Galada", cursive;
+
+	overflow: hidden;
+	white-space: nowrap;
+   
+
+    text-align: center;
+    font-size: 1em;
+}
+.text2:hover {
+    animation: authortext 10s steps(20); 
+}
+@keyframes authortext{
+	0% { width: 0px; }
+    50% { width: 350px; }
+    100% { width: 350px; height: 90px;}
+}
+
+.author{
+
+    position: relative;
+    z-index: 4;
+    width: 400px;
+    height: 600px;
+}
+.author:hover {
+    color: rgb(248, 136, 105);
+
+
+}
+
+.smallsparkles{
+    width: 400px;
+    height: 600px;
+    margin: 0px;
+    padding: 0px;
+    background: url(../images/Star-dots.png);
+    background-size: 100%;
+    align-content: center;
+    animation: smallsparkles infinite 10s;
+}
+@keyframes smallsparkles {
+    0% { opacity: 0; }
+    25%{opacity: 1; }
+    50%{  opacity: 0;}
+    75% { opacity: 1; }
+    100% { opacity: 0; }
+}
+    
+.star1 .star2 .star3 .star4 .star5 .star6 .star7 .star8
+.star9 .star10 .star11{
+    z-index: 2;
+}
+    
+.star1{
+    width: 400px;
+    height: 600px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+
+
+    background-size: 100%;
+    animation: star1 4s infinite;
+    
+}
+
+@keyframes star1 {
+    0% {transform:rotate(2deg) ;}
+    50% {transform:rotate(0deg) ;}
+    100% {transform: rotate(2deg);}
+}
+.star2{
+    width: 400px;
+    height: 600px;
+    top: 0px;
+    left: 0px;
+    background-size: 100%;
+    align-content: center;
+    animation: star2 4s infinite;
+}
+
+@keyframes star2 {
+    0% {transform:rotate(4deg) ;}
+    50% {transform:rotate(0deg) ;}
+    100% {transform: rotate(4deg);}
+}
+.star3{
+    width: 400px;
+    height: 600px;
+    top: 0px;
+    left: 0px;
+
+    background-size: 100%;
+    align-content: center;
+    animation: star3 4s infinite;
+}
+
+@keyframes star3 {
+    0% {transform:rotate(-2deg) ;}
+    50% {transform:rotate(0deg) ;}
+    100% {transform: rotate(-2deg);}
+}
+.star4{
+    width: 400px;
+    height: 600px;
+    top: 0px;
+    left: 0px;
+
+    background-size: 100%;
+    align-content: center;
+    animation: star4 4s infinite;
+}
+
+@keyframes star4 {
+    0% {transform:rotate(2deg) ;}
+    50% {transform:rotate(0deg) ;}
+    100% {transform: rotate(2deg);}
+}
+.star5{
+    width: 400px;
+    height: 600px;
+    top: 0px;
+    left: 0px;
+
+    background-size: 100%;
+    align-content: center;
+    animation: star5 4s infinite;
+}
+
+@keyframes star5 {
+    0% {transform:rotate(2deg) ;}
+    50% {transform:rotate(0deg) ;}
+    100% {transform: rotate(2deg);}
+}
+.star6{
+    width: 400px;
+    height: 600px;
+    top: 0px;
+    left: 0px;
+
+    background-size: 100%;
+    align-content: center;
+    animation: star6 4s infinite;
+}
+
+@keyframes star6 {
+    0% {transform:rotate(-2deg) ;}
+    50% {transform:rotate(0deg) ;}
+    100% {transform: rotate(-2deg);}
+}
+.star7{
+    width: 400px;
+    height: 600px;
+    top: 0px;
+    left: 0px;
+
+    background-size: 100%;
+    align-content: center;
+    animation: star7 4s infinite;
+}
+
+@keyframes star7 {
+    0% {transform:rotate(2deg) ;}
+    50% {transform:rotate(0deg) ;}
+    100% {transform: rotate(2deg);}
+}
+.star8{ width: 400px;
+    height: 600px;
+    top: 0px;
+    left: 0px;
+
+    background-size: 100%;
+    align-content: center;
+    animation: star8 4s infinite;
+}
+
+@keyframes star8 {
+    0% {transform:rotate(2deg) ;}
+    50% {transform:rotate(0deg) ;}
+    100% {transform: rotate(2deg);}
+}
+.star9{ 
+    width: 400px;
+    height: 600px;
+    top: 0px;
+    left: 0px;
+    background-size: 100%;
+    align-content: center;
+    animation: star9 4s infinite;
+}
+
+@keyframes star9 {
+    0% {transform:rotate(2deg) ;}
+    50% {transform:rotate(0deg) ;}
+    100% {transform: rotate(2deg);}
+}
+.star10{
+    width: 400px;
+    height: 600px;
+    top: 0px;
+    left: 0px;
+
+    background-size: 100%;
+    align-content: center;
+    animation: star10 4s infinite;
+}
+
+@keyframes star10 {
+    0% {transform:rotate(-2deg) ;}
+    50% {transform:rotate(0deg) ;}
+    100% {transform: rotate(-2deg);}
+}
+.star11{
+    width: 400px;
+    height: 600px;
+    top: 0px;
+    left: 0px;
+
+    background-size: 100%;
+    align-content: center;
+    animation: star11 4s infinite;
+}
+
+@keyframes star11 {
+    0% {transform:rotate(-2deg) ;}
+    50% {transform:rotate(0deg) ;}
+    100% {transform: rotate(-2deg);}
+}
+.circlePatch{
+    height: 90px;
+    width: 90px;
+    background-color: rgb(144, 143, 148);
+    border-radius: 50%;
+    margin: 0px;
+    padding: 8px;
+    position: relative;
+    left: 15px;
+    top: 4px;
+    rotate: -10deg;
+    text-align: center;
+    font-size: 0.9em;
+
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+      
+}
+.circleText{
+    text-align: center;
+    padding: 20px;
+}
+.title1{
+    width: 400px;
+    height: 600px;
+    margin: 0px;
+    padding: 0px;
+    background: url(../images/FIVE_sixfeetapart.png);
+    background-size: 100%;
+    align-content: center;
+    animation: title1 3s;
+}
+@keyframes title1{
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+.title2{
+    width: 400px;
+    height: 600px;
+    margin: 0px;
+    padding: 0px;
+    background: url(../images/FEET_fivefeetapart.png);
+    background-size: 100%;
+    align-content: center;
+    animation: title2 8s;
+}
+@keyframes title2 {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+.title3{
+    width: 400px;
+    height: 600px;
+    margin: 0px;
+    padding: 0px;
+    background: url(../images/APART_fivefeetapart.png);
+    background-size: 100%;
+    align-content: center;
+    animation: title3 12s;
+}
+@keyframes title3{
+    0% { opacity: 0; }
+    
+    100% { opacity: 1; }
+}
